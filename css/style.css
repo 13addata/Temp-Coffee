@@ -1,6 +1,6 @@
 body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, input, form, a, p {
-	margin-top: 0;
-	padding-top: 0;
+	margin: 0;
+	padding: 0;
 	font-family: Helvativa, Ariel, sans-serif;
 }
 
@@ -39,7 +39,6 @@ a {
 
 header {
 	position: relative;
-	left: -10px;
 	margin: 0;
 	height: 800px;
 	width: auto;
@@ -84,12 +83,13 @@ header .header-info h3 {
 	font-style: italic;
 	font-weight: 400;
 	letter-spacing: 1px;
+	color: #ddd;
 }
 
 header .header-info h1 {
 	font-size: 100px;
-	line-height: 64px;
-	margin-bottom: 60px;
+	margin-bottom: 30px;
+	color: #efefef;
 }
 
 header .header-info a {
@@ -154,18 +154,103 @@ footer .copyright {
 }
 
 .index-info .index-info-item p {
-	margin-top: -10px;
+	margin-top: 10px;
 	line-height: 1.5;
 	color: #3b3b3b;
 }
 
 .index-app {
 	position: relative;
-	margin-left: -10px;
 	height: 660px;
 	background: #f7f7f7;
 }
 
-.index-app {
-	
+.index-app .app-info, .index-app .app-img{
+	float: left;
+	width: 560px;
+	padding: 200px 10px;
+	letter-spacing: 1px;
+	line-height: 1.2;
+}
+
+.index-app .app-img img {
+	margin-top: -58px;
+}
+
+.index-app .app-info a {
+	margin-top: 20px;
+}
+
+.testimonial {
+	position: relative;
+	height: 480px;
+	background: url('../images/slide-bg.png') no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #eee;
+}
+
+.testimonial .testi-icon {
+	position: relative;
+	top: 80px;
+	left: 50%;
+	margin-left: -60px;
+	height: 120px;
+	width: 120px;
+	background: url('../images/1.jpg') no-repeat;
+	border-radius: 50%;
+}
+
+.testimonial .testi-quote {
+	position: relative;
+	top: 26px;
+	font-size: 26px;
+	font-style: italic;
+	color: #4d5b5d;
+	line-height: 1.4;
+
+}
+
+.testimonial .testi-quote span {
+	font-size: 20px;
+}
+
+.testimonial .btn-group {
+	position: relative;
+	top: 20px;
+	left: 50%;
+	margin-left: -34px;
+}
+
+.testimonial .btn-group .btn-item {
+	float: left;
+	height: 16px;
+	width: 16px;
+	margin: 50px 5px;
+	border-radius: 50%;
+	border: 1px solid #4d5b5d;
+	background-color: #4d5b5d;
+}
+.testimonial .btn-group .btn-item a {
+	color: #4d5b5d;
+}
+
+.testimonial .btn-group .active {
+	border: 1px solid #eee;
+	background-color: #eee;
+} 
+
+.testimonial .btn-group .active a {
+	color: #eee;
+}
+
+.index-around {
+	position: relative;
+	padding: 80px 0;
+	text-align: center;
+}
+
+.index-around h3 {
+	font-size: 22px;
+	color: #2d2d2d;
 }
