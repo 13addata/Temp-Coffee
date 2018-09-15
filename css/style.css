@@ -1,0 +1,171 @@
+body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, input, form, a, p {
+	margin-top: 0;
+	padding-top: 0;
+	font-family: Helvativa, Ariel, sans-serif;
+}
+
+ul, ol, li {
+	list-style: none;
+}
+
+img {
+	border-right: 0;
+	display: block;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+	color: #eee;
+}
+
+.container {
+	position: relative;
+	margin: 0 auto;
+	width: 1170px;
+}
+
+.clearfloat {
+	zoom: 1;
+}
+
+.clearfloat:after {
+	display: block;
+	content: "";
+	height: 1px;
+	visibility: hidden;
+	clear: both;
+}
+
+header {
+	position: relative;
+	left: -10px;
+	margin: 0;
+	height: 800px;
+	width: auto;
+	background: url('../images/bg.jpg') no-repeat 0px 0px;
+	background-size: cover;
+}
+
+header .header-logo {
+	height: 100px;
+	padding-top: 10px;
+}
+
+header .header-logo .logo-img {
+	float: left;
+	height: 100px;
+	width: 100px;
+	margin-top: 10px;
+}
+
+header .header-logo .nav {
+	float: right;
+	margin-top: 16px;
+	margin-right: 10px;
+}
+
+header .header-logo .nav .nav-item {
+	float: left;
+	padding: 10px;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+header .header-info {
+	margin-top: 200px;
+	color: #eee;
+	text-align: center;
+}
+
+header .header-info h3 {
+	font-size: 34px;
+	font-family: Times;
+	font-style: italic;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+header .header-info h1 {
+	font-size: 100px;
+	line-height: 64px;
+	margin-bottom: 60px;
+}
+
+header .header-info a {
+	font-size: 18px;
+	font-weight: 600;
+	padding: 20px 50px;
+	background-color: #30788b;
+}
+
+footer {
+	position: relative;
+	height: 100px;
+	margin-top: 100px;
+	background: #f7f7f7;
+}
+
+footer .footer-logo {
+	float: left;
+	margin-top: 14px;
+	height: 80px;
+	width: 100px;
+	background: url('../images/f_logo.png') no-repeat;
+}
+
+footer .copyright {
+	float: right;
+	margin-top: 46px;
+}
+
+.index-info {
+	position: relative;
+	margin: 100px 0;
+	padding: 20px auto;
+}
+
+.index-info .index-info-item {
+	float: left;
+	width: 360px;
+	padding: 0 15px;
+	text-align: center;
+}
+
+.index-info .index-info-item .icon1 {
+	width: 128px;
+	height: 111px;
+	background: url(../images/img-resources.png) no-repeat 8px 0px;
+	display: inline-block;
+}
+
+.index-info .index-info-item .icon2 {
+	width: 128px;
+	height: 111px;
+	background: url(../images/img-resources.png) no-repeat -130px 0px;
+	display: inline-block;
+}
+
+.index-info .index-info-item .icon3 {
+	width: 128px;
+	height: 111px;
+	background: url(../images/img-resources.png) no-repeat -272px 0px;
+	display: inline-block;
+}
+
+.index-info .index-info-item p {
+	margin-top: -10px;
+	line-height: 1.5;
+	color: #3b3b3b;
+}
+
+.index-app {
+	position: relative;
+	margin-left: -10px;
+	height: 660px;
+	background: #f7f7f7;
+}
+
+.index-app {
+	
+}
