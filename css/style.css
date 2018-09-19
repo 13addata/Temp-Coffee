@@ -102,7 +102,6 @@ header .header-info a {
 footer {
 	position: relative;
 	height: 100px;
-	margin-top: 100px;
 	background: #f7f7f7;
 }
 
@@ -253,4 +252,10 @@ footer .copyright {
 .index-around h3 {
 	font-size: 22px;
 	color: #2d2d2d;
+}
+
+.index-map {
+	position: relative;
+	width: 700px;
+	margin: 40px auto;
 }
